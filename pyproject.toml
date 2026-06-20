@@ -1,9 +1,40 @@
 [project]
-name = "pebble"
+name = "pebble-ssg"
 version = "0.1.0"
+description = "A minimal static site generator. Write Markdown, get a website."
+readme = "README.md"
+license = { text = "MIT" }
 requires-python = ">=3.11"
+keywords = ["static-site-generator", "markdown", "blog", "website"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP :: Site Management",
+    "Topic :: Text Processing :: Markup :: Markdown",
+]
 dependencies = [
     "markdown>=3.4",
+    "pydantic>=2.0",
     "PyRSS2Gen>=1.1",
     "PyYAML>=6.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/erdemuysalx/pebble"
+Repository = "https://github.com/erdemuysalx/pebble"
+Issues = "https://github.com/erdemuysalx/pebble/issues"
+
+[project.scripts]
+pebble = "pebble:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["pebble.py"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

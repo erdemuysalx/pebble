@@ -1,16 +1,19 @@
 website_url: 'https://foo.bar'
 website_name: 'pebble'
+author: 'Your Name'
 source_url: 'https://github.com/erdemuysalx/pebble'
 
 directories:
   pages: 'pages'
   blog: 'blog'
+  projects: 'projects'
   public: 'public'
   output: 'build'
 
 files:
   root_index: 'index.md'
   blog_index: 'pages/blog.md'
+  projects_index: 'pages/projects.md'
 
 templates:
   header: 'header.html'
@@ -20,6 +23,8 @@ misc:
   nav_home: 'Home'
   contact_url: '/contact'
   recent_posts_count: 5
+  selected_projects_count: 4
+  carousel_cards_per_page: 2
   generate_rss: True
   rss_filename: 'rss.xml'
   rss_post_limit: 20

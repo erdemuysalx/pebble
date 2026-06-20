@@ -25,3 +25,7 @@ Edit `config.yml` with your details, put your posts in `blog/`, run `./build.sh`
 ## Write blog
 
 <!-- RECENT_POSTS -->
+
+## Add projects
+
+<!-- SELECTED_PROJECTS -->
