@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="color-scheme" content="dark light">
-	<title>Blog</title>
+	<title>Projects</title>
 	<link rel="alternate" type="application/rss+xml" title="pebble RSS Feed" href="/rss.xml">
 	<link rel="stylesheet" href="/public/css/style.css">
 </head>
@@ -16,18 +16,19 @@
 			<span>/home/pebble</span>
 			<ul>
 				<li><a href="/">Home</a></li>
-				<li><a href="/blog" class="active">Blog</a></li>
-				<li><a href="/projects">Projects</a></li>
+				<li><a href="/blog">Blog</a></li>
+				<li><a href="/projects" class="active">Projects</a></li>
 				<li><a href="/contact">Contact</a></li>
 			</ul>
 		</nav>
 		<hr>
 	</header>
 <main>
-<h1>Blog</h1>
-<p>Posts go here. Add a <code>.md</code> file to <code>blog/</code> and it shows up automatically.</p><ul class="blog">
-<li><span>01 Jan 2024</span><a href="/blog/2024-01-01_Hello-World/">Hello World</a></li>
-</ul>
+<h1>Projects</h1>
+<p>Projects go here. Add a <code>.md</code> file to <code>projects/</code> and it shows up automatically.</p><div class="project-grid">
+<article class="project-card"><a href="/projects/example-project/" class="project-card-image-link"><img class="project-card-image" src="/public/images/example-project.png" alt="Example Project"></a><div class="project-card-body"><h3><a href="/projects/example-project/">Example Project</a></h3><p class="project-card-description">This is your first project page. The preamble block between the title and the body
+is where project-specific metadata lives — the generator strips it before rendering
+so none of it appears in the page body.</p><div class="project-card-footer"><a class="project-btn" href="https://github.com/example/project">GitHub &nearr;</a><a class="project-btn" href="https://arxiv.org/abs/0000.00000">Paper &nearr;</a></div></div></article></div>
 </main>
 
 <footer role="contentinfo">

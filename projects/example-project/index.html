@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="color-scheme" content="dark light">
+	<title>Example Project</title>
+	<link rel="alternate" type="application/rss+xml" title="pebble RSS Feed" href="/rss.xml">
+	<link rel="stylesheet" href="/public/css/style.css">
+</head>
+
+<body>
+	<header>
+		<nav class="navbar">
+			<span>/home/pebble</span>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/blog">Blog</a></li>
+				<li><a href="/projects" class="active">Projects</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</nav>
+		<hr>
+	</header>
+<main>
+<h1>Example Project</h1><p class="project-page-links"><a class="project-btn" href="https://github.com/example/project">GitHub &nearr;</a><a class="project-btn" href="https://arxiv.org/abs/0000.00000">Paper &nearr;</a></p>
+<p>This is your first project page. The preamble block between the title and the body
+is where project-specific metadata lives — the generator strips it before rendering
+so none of it appears in the page body.</p>
+<h2>Preamble fields</h2>
+<p>Place these lines directly after the title and date, in any order:</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Example</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>GitHub</code></td>
+<td><code>GitHub: https://github.com/you/repo</code></td>
+<td>Links a "GitHub ↗" badge on the card and page</td>
+</tr>
+<tr>
+<td><code>Paper</code></td>
+<td><code>Paper: https://arxiv.org/abs/0000.00000</code></td>
+<td>Links a "Paper ↗" badge</td>
+</tr>
+<tr>
+<td><code>Image</code></td>
+<td><code>Image: /public/images/preview.png</code></td>
+<td>Thumbnail shown on the project card</td>
+</tr>
+<tr>
+<td><code>Order</code></td>
+<td><code>Order: 1</code></td>
+<td>Integer — lower numbers appear first on the projects page</td>
+</tr>
+</tbody>
+</table>
+<p>All fields are optional. A project with no <code>Image</code> gets a hatched placeholder on its card.
+<code>GitHub</code> and <code>Paper</code> badges appear both on the card footer and at the top of the project page.</p>
+<h2>Body</h2>
+<p>Everything below the last preamble line is the project body — standard Markdown, no restrictions.</p>
+<p>Write a short description here. The first paragraph is extracted as the card description,
+so lead with the most important information.</p>
+<h2>How it works</h2>
+<p>Write as much detail as you like. Code blocks, tables, images — all work.</p>
+<pre class="codehilite"><code class="language-python"># Example: training loop sketch
+for epoch in range(num_epochs):
+    loss = model.train_step(batch)
+    print(f&quot;Epoch {epoch}: loss={loss:.4f}&quot;)
+</code></pre>
+
+<h2>Results</h2>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Baseline</th>
+<th>This project</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Accuracy</td>
+<td>72.3%</td>
+<td>88.1%</td>
+</tr>
+<tr>
+<td>Latency</td>
+<td>420 ms</td>
+<td>38 ms</td>
+</tr>
+</tbody>
+</table>
+<h2>References</h2>
+<p>[1] Author, A. "Paper title." <em>Conference</em>, 2024.</p>
+<p>[2] Author, B. "Another paper." <em>Journal</em>, 2023.</p></main>
+
+<footer role="contentinfo">
+    <hr />
+    <small>
+        <a href="#top">&uarr; Top of the page</a><span>&nbsp;|&nbsp;</span><a href="/contact">Contact</a><span>&nbsp;|&nbsp;</span><a href="/rss.xml">RSS</a><br>
+        The content for this site is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.<br>
+        The <a href="https://github.com/erdemuysalx/pebble">code for this website</a>
+        is <a href="https://github.com/erdemuysalx/pebble/blob/main/LICENSE">GNU GPLv3.0</a>.
+    </small>
+</footer>
+<script src="/public/js/main.js"></script>
+</body>
+</html>

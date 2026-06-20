@@ -1,76 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>pebble RSS Feed</title><link>https://foo.bar</link><description>The official RSS Feed for https://foo.bar</description><lastBuildDate>Fri, 12 Jun 2026 12:06:11 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Hello World</title><link>https://foo.bar/blog/2024-01-01_Hello-World/</link><description>&lt;h1&gt;Hello World&lt;/h1&gt;
-&lt;p&gt;01 Jan 2024&lt;/p&gt;
-&lt;p&gt;This is your first blog post. The filename format &lt;code&gt;YYYY-MM-DD_Post-Title.md&lt;/code&gt; is the
-convention — the date on the second line is what the generator reads for ordering and RSS.&lt;/p&gt;
-&lt;h2&gt;Writing posts&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Place markdown files in the &lt;code&gt;blog/&lt;/code&gt; directory&lt;/li&gt;
-&lt;li&gt;Start with a &lt;code&gt;# Title&lt;/code&gt; heading on line 1&lt;/li&gt;
-&lt;li&gt;Put the date on line 2 in any of these formats: &lt;code&gt;01 Jan 2024&lt;/code&gt;, &lt;code&gt;2024-01-01&lt;/code&gt;, &lt;code&gt;January 1 2024&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;The rest is standard Markdown — code blocks, tables, images, links all work&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Code blocks&lt;/h2&gt;
-&lt;p&gt;Fenced code blocks with syntax highlighting:&lt;/p&gt;
-&lt;pre class="codehilite"&gt;&lt;code class="language-python"&gt;def hello():
-    print(&amp;quot;Hello, world!&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
+<rss version="2.0"><channel><title>pebble RSS Feed</title><link>https://foo.bar</link><description>The official RSS Feed for https://foo.bar</description><lastBuildDate>Sat, 20 Jun 2026 23:55:44 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Hello World</title><link>https://foo.bar/blog/2024-01-01_Hello-World/</link><description>Hello World01 Jan 2024&amp;nbsp;&amp;middot;&amp;nbsp;1 min read
 
-&lt;p&gt;Inline code works too: run &lt;code&gt;uv sync&lt;/code&gt; before your first build.&lt;/p&gt;
-&lt;h2&gt;Blockquotes&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The best tool is the one that gets out of your way.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Nested quotes work as well:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Simplicity is the ultimate sophistication.&lt;/p&gt;
-&lt;p&gt;— Leonardo da Vinci&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;Tables&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Format&lt;/th&gt;
-&lt;th&gt;Example&lt;/th&gt;
-&lt;th&gt;Notes&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;ISO date&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;2024-01-01&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Unambiguous, sorts well&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Short month&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;01 Jan 2024&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Human-friendly&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Long month&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;January 1 2024&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Verbose but clear&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2&gt;Lists&lt;/h2&gt;
-&lt;p&gt;Unordered:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Write in Markdown&lt;/li&gt;
-&lt;li&gt;Run the build script&lt;/li&gt;
-&lt;li&gt;Deploy the &lt;code&gt;build/&lt;/code&gt; directory&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Ordered:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Clone the repo&lt;/li&gt;
-&lt;li&gt;Edit &lt;code&gt;config.yml&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Add posts to &lt;code&gt;blog/&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Run &lt;code&gt;./build.sh&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;Emphasis and inline formatting&lt;/h2&gt;
-&lt;p&gt;You can use &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, ~~strikethrough~~, and &lt;code&gt;inline code&lt;/code&gt; anywhere in your prose.&lt;/p&gt;
-&lt;p&gt;Links work as expected: &lt;a href="https://github.com/erdemuysalx/pebble"&gt;pebble on GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;Horizontal rule&lt;/h2&gt;
-&lt;p&gt;Three dashes produce a divider:&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;That's the full feature set. Everything here is standard Markdown — no custom syntax, no shortcodes, no magic.&lt;/p&gt;</description><pubDate>Mon, 01 Jan 2024 12:00:00 GMT</pubDate></item></channel></rss>
+This is your first blog post. The filename format YYYY-MM-DD_Post-Title.md is the
+convention — the date on the second line is what the generator reads for ordering and RSS.
+Writing posts
+
+Place markdown files in the blog/ directory
+Start with a # Title heading on line 1
+Put the date on line 2 in any of these formats: 01 Jan 2024, 2024-01-01, January 1 2024
+The rest is standard Markdown — code blocks, tables, images, links all work
+
+Code block…</description><pubDate>Mon, 01 Jan 2024 12:00:00 GMT</pubDate></item></channel></rss>
