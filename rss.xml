@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>pebble RSS Feed</title><link>https://foo.bar</link><description>The official RSS Feed for https://foo.bar</description><lastBuildDate>Sat, 20 Jun 2026 23:55:44 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Hello World</title><link>https://foo.bar/blog/2024-01-01_Hello-World/</link><description>Hello World01 Jan 2024&amp;nbsp;&amp;middot;&amp;nbsp;1 min read
+<rss version="2.0"><channel><title>pebble RSS Feed</title><link>https://foo.bar</link><description>The official RSS Feed for https://foo.bar</description><lastBuildDate>Sun, 21 Jun 2026 11:04:36 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Hello World</title><link>https://foo.bar/blog/2024-01-01_Hello-World/</link><description>Hello World01 Jan 2024&amp;nbsp;&amp;middot;&amp;nbsp;1 min read
 
 This is your first blog post. The filename format YYYY-MM-DD_Post-Title.md is the
 convention — the date on the second line is what the generator reads for ordering and RSS.
